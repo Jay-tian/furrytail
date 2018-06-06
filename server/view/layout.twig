@@ -57,5 +57,14 @@
   {% for script in scripts|default('') %}
     <script src="{{ asset(script) }}"> </script>
   {% endfor %}
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?92e18898a41c115df4030398bdaef96d";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
 </body>
 </html>
