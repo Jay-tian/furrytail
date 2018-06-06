@@ -10,7 +10,7 @@ let setting = {
   entry: rootPath + '/client/js/',
   output: rootPath + '/public/dist/',
   mainJs: rootPath + '/client/js/app.js',
-  lessPath: rootPath + '/client/less/pages',
+  lessPath: rootPath + '/client/less/pages/',
   publicPath: '/dist/',
   author: 'tianshengjie',
   purifyCssPaths: purifyCssPaths,
