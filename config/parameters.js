@@ -7,4 +7,5 @@ module.exports = {
   rootPath: rootPath,
   serverPath: path.join(rootPath + '/server/'),
   version: version,
+  distAddress: 'http://static.furrytail.com/furrytail/',
 };
