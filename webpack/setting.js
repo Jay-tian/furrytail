@@ -11,7 +11,7 @@ let setting = {
   output: rootPath + '/public/dist/',
   mainJs: rootPath + '/client/js/app.js',
   lessPath: rootPath + '/client/less/pages/',
-  publicPath: '/dist/',
+  publicPath: '/furraytail/dist/',
   author: 'tianshengjie',
   purifyCssPaths: purifyCssPaths,
 };
