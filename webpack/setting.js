@@ -8,10 +8,10 @@ purifyCssPaths = purifyCssPaths.concat(glob.sync(path.join(rootPath, '/client/js
 
 let setting = {
   entry: rootPath + '/client/js/',
-  output: rootPath + '/public/dist/',
+  output: rootPath + '/public/furrytail/dist/',
   mainJs: rootPath + '/client/js/app.js',
   lessPath: rootPath + '/client/less/pages/',
-  publicPath: '/furraytail/dist/',
+  publicPath: '/furrytail/dist/',
   author: 'tianshengjie',
   purifyCssPaths: purifyCssPaths,
 };
