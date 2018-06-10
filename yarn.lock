@@ -3109,6 +3109,10 @@ ecc-jsbn@~0.1.1:
   dependencies:
     jsbn "~0.1.0"
 
+echo-js@^1.7.3:
+  version "1.7.3"
+  resolved "https://registry.npmjs.org/echo-js/-/echo-js-1.7.3.tgz#6cf040b4bdd23f950d0432e0283909d3fe90d8f8"
+
 editor.md@^1.5.0:
   version "1.5.0"
   resolved "https://registry.npmjs.org/editor.md/-/editor.md-1.5.0.tgz#6fe636a88a39b85613f53eee6ecb7b7348ab23bf"
@@ -5040,6 +5044,10 @@ isomorphic-fetch@^2.1.1:
 isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.npmjs.org/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
+
+jay-echo@^1.7.3:
+  version "1.7.3"
+  resolved "https://registry.npmjs.org/jay-echo/-/jay-echo-1.7.3.tgz#a963c417560942c169eb9e706efae1a3a36cad88"
 
 jay-fullpage.js@^2.9.7:
   version "2.9.7"
