@@ -9,13 +9,16 @@ $fullpage.fullpage({
   afterLoad: function(anchorLinkk, index){
     $sections.removeClass('transition-active');
     let $action = $sections.eq(index-1);
-    $action.find('.js-echo-image').each(function(index, element){
-      $(element).attr('src', $(element).data('echo'));
-    });
     setTimeout(function(){
       $action.addClass('transition-active');
     }, 50);
   },
+  onLeave: function(index, nextIndex){
+    let $action = $sections.eq(nextIndex-1);
+    $action.find('.js-echo-image').each(function(index, element){
+      $(element).attr('src', $(element).data('echo'));
+    });
+  }
 });
 
 $('.first-netxt').click(function(){
