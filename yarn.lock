@@ -3065,7 +3065,7 @@ debug@2.6.9, debug@^2.1.2, debug@^2.2.0, debug@^2.3.3, debug@^2.6.3, debug@^2.6.
   dependencies:
     ms "2.0.0"
 
-debuglog@*, debuglog@^1.0.1:
+debuglog@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/debuglog/-/debuglog-1.0.1.tgz#aa24ffb9ac3df9a2351837cfb2d279360cd78492"
 
@@ -5400,7 +5400,7 @@ import-local@^1.0.0:
     pkg-dir "^2.0.0"
     resolve-cwd "^2.0.0"
 
-imurmurhash@*, imurmurhash@^0.1.4:
+imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "https://registry.npmjs.org/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
 
@@ -6066,6 +6066,76 @@ jay-webpack-scaffold@^1.1.10:
     webpack-dev-server "^3.1.4"
     webpack-parallel-uglify-plugin "^1.1.0"
 
+jay-webpack-scaffold@^1.1.14:
+  version "1.1.14"
+  resolved "https://registry.npmjs.org/jay-webpack-scaffold/-/jay-webpack-scaffold-1.1.14.tgz#579a41b7a9dd59b991db3faeb4c8af7210badf28"
+  dependencies:
+    assets-webpack-plugin "^3.7.1"
+    autoprefixer "^7.2.5"
+    babel-cli "^6.26.0"
+    babel-core "^6.26.0"
+    babel-loader "^7.1.2"
+    babel-plugin-transform-runtime "^6.23.0"
+    babel-preset-es2015 "^6.24.1"
+    babel-preset-latest "^6.24.1"
+    babel-preset-react "^6.24.1"
+    babel-preset-stage-0 "^6.24.1"
+    bootstrap "^4.0.0"
+    child_process "^1.0.2"
+    clean-webpack-plugin "^0.1.19"
+    copy-webpack-plugin "^4.5.1"
+    cross-env "^5.1.3"
+    css-hot-loader "^1.3.9"
+    css-loader "^0.28.7"
+    editor.md "^1.5.0"
+    element-ui "^2.4.0"
+    eslint "^4.19.1"
+    eslint-loader "^2.0.0"
+    eslint-plugin-react "^7.7.0"
+    expect "^22.4.0"
+    expose-loader "^0.7.4"
+    extract-text-webpack-plugin next
+    file-loader "^1.1.6"
+    glob "^7.1.2"
+    happypack "^5.0.0"
+    html5shiv "^3.7.3"
+    imagemin-webpack-plugin "^2.1.5"
+    jay-remove-webpack-plugin "^1.0.0"
+    jay-respond "^1.4.3"
+    jquery "^3.3.1"
+    jquery-validation "^1.17.0"
+    koa "^2.5.1"
+    less "^2.7.2"
+    less-loader "^4.0.5"
+    markdown "^0.5.0"
+    marked "^0.4.0"
+    mime "^2.3.1"
+    mini-css-extract-plugin "^0.4.0"
+    open "^0.0.5"
+    optimize-css-assets-webpack-plugin "^4.0.1"
+    particles.js "^2.0.0"
+    popper "^1.0.1"
+    popper.js "^1.12.9"
+    postcss-loader "^2.1.0"
+    prepack-webpack-plugin "^1.1.0"
+    progress-bar-webpack-plugin "^1.11.0"
+    purify-css "^1.2.5"
+    purifycss-webpack "^0.7.0"
+    react "15.0.0"
+    react-dom "15.0.0"
+    react-lazy-load "^3.0.13"
+    style-loader "^0.20.1"
+    stylelint "^9.2.1"
+    stylelint-config-standard "^18.2.0"
+    stylelint-webpack-plugin "^0.10.5"
+    swiper "^4.2.6"
+    url-loader "^0.6.2"
+    vue "^2.5.16"
+    webpack "^4.8.1"
+    webpack-bundle-analyzer "^2.13.0"
+    webpack-dev-server "^3.1.4"
+    webpack-parallel-uglify-plugin "^1.1.0"
+
 jest-diff@^22.4.3:
   version "22.4.3"
   resolved "https://registry.npmjs.org/jest-diff/-/jest-diff-22.4.3.tgz#e18cc3feff0aeef159d02310f2686d4065378030"
@@ -6581,10 +6651,6 @@ lodash._basecopy@^3.0.0:
   version "3.0.1"
   resolved "https://registry.npmjs.org/lodash._basecopy/-/lodash._basecopy-3.0.1.tgz#8da0e6a876cf344c0ad8a54882111dd3c5c7ca36"
 
-lodash._baseindexof@*:
-  version "3.1.0"
-  resolved "https://registry.npmjs.org/lodash._baseindexof/-/lodash._baseindexof-3.1.0.tgz#fe52b53a1c6761e42618d654e4a25789ed61822c"
-
 lodash._basetostring@^3.0.0:
   version "3.0.1"
   resolved "https://registry.npmjs.org/lodash._basetostring/-/lodash._basetostring-3.0.1.tgz#d1861d877f824a52f669832dcaf3ee15566a07d5"
@@ -6600,25 +6666,11 @@ lodash._basevalues@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/lodash._basevalues/-/lodash._basevalues-3.0.0.tgz#5b775762802bde3d3297503e26300820fdf661b7"
 
-lodash._bindcallback@*:
-  version "3.0.1"
-  resolved "https://registry.npmjs.org/lodash._bindcallback/-/lodash._bindcallback-3.0.1.tgz#e531c27644cf8b57a99e17ed95b35c748789392e"
-
-lodash._cacheindexof@*:
-  version "3.0.2"
-  resolved "https://registry.npmjs.org/lodash._cacheindexof/-/lodash._cacheindexof-3.0.2.tgz#3dc69ac82498d2ee5e3ce56091bafd2adc7bde92"
-
-lodash._createcache@*:
-  version "3.1.2"
-  resolved "https://registry.npmjs.org/lodash._createcache/-/lodash._createcache-3.1.2.tgz#56d6a064017625e79ebca6b8018e17440bdcf093"
-  dependencies:
-    lodash._getnative "^3.0.0"
-
 lodash._createset@~4.0.0:
   version "4.0.3"
   resolved "https://registry.npmjs.org/lodash._createset/-/lodash._createset-4.0.3.tgz#0f4659fbb09d75194fa9e2b88a6644d363c9fe26"
 
-lodash._getnative@*, lodash._getnative@^3.0.0:
+lodash._getnative@^3.0.0:
   version "3.9.1"
   resolved "https://registry.npmjs.org/lodash._getnative/-/lodash._getnative-3.9.1.tgz#570bc7dede46d61cdcde687d65d3eecbaa3aaff5"
 
@@ -6700,7 +6752,7 @@ lodash.merge@^4.6.1:
   version "4.6.1"
   resolved "https://registry.npmjs.org/lodash.merge/-/lodash.merge-4.6.1.tgz#adc25d9cb99b9391c59624f379fbba60d7111d54"
 
-lodash.restparam@*, lodash.restparam@^3.0.0:
+lodash.restparam@^3.0.0:
   version "3.6.1"
   resolved "https://registry.npmjs.org/lodash.restparam/-/lodash.restparam-3.6.1.tgz#936a4e309ef330a7645ed4145986c85ae5b20805"
 
@@ -9422,7 +9474,7 @@ readable-stream@~2.0.0:
     string_decoder "~0.10.x"
     util-deprecate "~1.0.1"
 
-readdir-scoped-modules@*, readdir-scoped-modules@^1.0.0:
+readdir-scoped-modules@^1.0.0:
   version "1.0.2"
   resolved "https://registry.npmjs.org/readdir-scoped-modules/-/readdir-scoped-modules-1.0.2.tgz#9fafa37d286be5d92cbaebdee030dc9b5f406747"
   dependencies:

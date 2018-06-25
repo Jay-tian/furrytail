@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "jay-echo": "^1.7.3",
+    "jay-webpack-scaffold": "^1.1.14",
     "koa-symphony": "^1.0.1",
     "webpack-cli": "^3.0.1"
   },
