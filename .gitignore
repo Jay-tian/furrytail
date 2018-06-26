@@ -5,3 +5,4 @@
 /config
 /dev.lock
 yarn-error.log
+config/parameters.js
