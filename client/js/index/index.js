@@ -1,4 +1,5 @@
 require('jay-fullpage.js');
+
 let $fullpage = $('#fullpage');
 let $sections = $fullpage.find('.section');
 
@@ -7,9 +8,16 @@ $fullpage.fullpage({
   anchors:['furlosophy', 'byebyefur', 'fooddict',' scratcher', 'pills', 'addiction', 'aboot', 'contact'],
   afterLoad: function(anchorLinkk, index){
     $sections.removeClass('transition-active');
+    let $action = $sections.eq(index-1);
     setTimeout(function(){
-      $sections.eq(index-1).addClass('transition-active');
+      $action.addClass('transition-active');
     }, 50);
+  },
+  onLeave: function(index, nextIndex){
+    let $action = $sections.eq(nextIndex-1);
+    $action.find('.js-echo-image').each(function(index, element){
+      $(element).attr('src', $(element).data('echo'));
+    });
   }
 });
 

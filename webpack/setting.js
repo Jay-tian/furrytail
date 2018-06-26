@@ -14,6 +14,8 @@ let setting = {
   publicPath: '/furrytail/dist/',
   author: 'tianshengjie',
   purifyCssPaths: purifyCssPaths,
+  assetName: 'webpack.assets.json',
+  assetJs: false,
 };
 
 module.exports = setting;

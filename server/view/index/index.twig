@@ -27,7 +27,7 @@
 
 {% block main %}
 <div id="fullpage">
-  <div class="section furlosophy" data-anchor="furlosophy">
+  <div class="section furlosophy transition-active" data-anchor="furlosophy">
     <div class="cd-md-15 bg-blue full-screen">
       <div class="cd-md-offset-3 main-top-distant words">
         <div class="title">
@@ -45,7 +45,7 @@
     </div>
     <div class="cd-md-9 bg-yellowish full-screen swiper-padding-right swiper-bg">
       <div class="main-top-distant cd-clearfix">
-        <img class="pull-right" src="{{ asset('/image/index/1/1.jpg', 0) }}">
+        <img class="pull-right" src="/furrytail/image/index/1/1.jpg" title="FURLOSOPHY" alt="FURLOSOPHY">
       </div>
     </div>
   </div>
@@ -86,7 +86,7 @@
                 Just one swipe with FURemover, get rid of shedding hair in one second.
                 Minimalist and elegant appearance: like an art piece, easily blend into home décor."
             >
-              <img src="{{ asset('/image/index/2/1.jpg', 0) }}" >
+              {{ web_macro.lasy_image('/image/index/2/1.jpg', 'ByeByeFur') }}
             </div>
             <div class="swiper-slide"  
               data-title="BYEBYEFUR" 
@@ -94,7 +94,7 @@
               data-sub-description="Product  Size :   43cm / 43cm / 32cm/<br/>
                 Product Weight :   2.2kg<br/>
                 Color :   Gold / White / Black">
-              <img src="{{ asset('/image/index/2/2.jpg', 0) }}">
+              {{ web_macro.lasy_image('/image/index/2/2.jpg', 'BYEBYEFUR') }}
             </div>
             <div class="swiper-slide"              
               data-title="BYEBYEFUR" 
@@ -102,7 +102,7 @@
               data-sub-description="Product  Size :   43cm / 43cm / 32cm/<br/>
                 Product Weight :   2.2kg<br/>
                 Color :   Gold / White / Black">
-              <img src="{{ asset('/image/index/2/3.jpg', 0) }}"> 
+              {{ web_macro.lasy_image('/image/index/2/3.jpg', 'BYEBYEFUR') }}
             </div>
           </div>
         </div> 
@@ -143,7 +143,7 @@
               data-description="Hand blown glass，let cats be food addict."
               data-sub-description="Hand blown glass bowl, every piece is unique. The bowl becomes an art piece while reflecting sunshine. Glass will prevent the growing of bacteria which cause folliculitis. With a  two layers design, the taller bowl is used for main meals,  while the lower plate is for wet meal like can food."
             >
-              <img src="{{ asset('/image/index/3/1.jpg', 0) }}">
+              {{ web_macro.lasy_image('/image/index/3/1.jpg', 'Fooddict Cat Bowl') }}
             </div>
             <div class="swiper-slide"
               data-title="Fooddict<br/> Cat Bowl" 
@@ -154,7 +154,7 @@
                 Color :  Blue Gold / Green Gold
                 "
             >
-              <img src="{{ asset('/image/index/3/2.jpg', 0) }}">
+              {{ web_macro.lasy_image('/image/index/3/2.jpg', 'Fooddict Cat Bowl') }}
             </div>
             <div class="swiper-slide"
               data-title="Fooddict<br/> Cat Bowl" 
@@ -164,7 +164,7 @@
                 Product Weight :  1.3kg<br/>
                 Color :  Blue Gold / Green Gold
                 ">
-              <img src="{{ asset('/image/index/3/3.jpg', 0) }}"> 
+              {{ web_macro.lasy_image('/image/index/3/3.jpg', 'Fooddict Cat Bowl') }}
             </div>
           </div>
         </div> 
@@ -208,7 +208,7 @@
                 With three different connecting components, “X” cat scratcher can be assembled into three different product configurations that fit for different cat scratching habit. 
                 The scratching surface is consumable item, therefore it is designed to be easily assembled and replaced when it is well-worn.
                 ">
-              <img src="{{ asset('/image/index/4/1.jpg', 0) }}">
+              {{ web_macro.lasy_image('/image/index/4/1.jpg', 'X Cat Scratcher') }}
             </div>
             <div class="swiper-slide"              
               data-title="X Cat Scratcher" 
@@ -217,7 +217,7 @@
                 With three different connecting components, “X” cat scratcher can be assembled into three different product configurations that fit for different cat scratching habit. 
                 The scratching surface is consumable item, therefore it is designed to be easily assembled and replaced when it is well-worn.
                 ">
-              <img src="{{ asset('/image/index/4/2.jpg', 0)}}">
+              {{ web_macro.lasy_image('/image/index/4/2.jpg', 'X Cat Scratcher') }}
             </div>
             <div class="swiper-slide"             
               data-title="X Cat Scratcher" 
@@ -226,7 +226,7 @@
                 With three different connecting components, “X” cat scratcher can be assembled into three different product configurations that fit for different cat scratching habit. 
                 The scratching surface is consumable item, therefore it is designed to be easily assembled and replaced when it is well-worn.
                 ">
-              <img src="{{ asset('/image/index/4/3.jpg', 0) }}"> 
+              {{ web_macro.lasy_image('/image/index/4/3.jpg', 'X Cat Scratcher') }}
             </div>
           </div>
         </div> 
@@ -278,7 +278,7 @@
                 The most elegant and clean way to intake cat mints, no spilling around on the ground. 
                 Classy addiction for cat.
                 ">
-              <img src="{{ asset('/image/index/5/1.jpg', 0) }}">
+              {{ web_macro.lasy_image('/image/index/5/1.jpg', 'Cat Pills') }}
             </div>
             <div class="swiper-slide"              
               data-title="Cat Pills" 
@@ -287,7 +287,7 @@
                 Packaging size :  25.1cm/29cm/6cm<br/>
                 Total weight :  0.8kg<br/>
                 ">
-              <img src="{{ asset('/image/index/5/2.jpg', 0) }}">
+              {{ web_macro.lasy_image('/image/index/5/2.jpg', 'Cat Pills') }}
             </div>
             <div class="swiper-slide"              
               data-title="Cat Pills" 
@@ -296,7 +296,7 @@
                 Packaging size :  25.1cm/29cm/6cm<br/>
                 Total weight :  0.8kg<br/>
                 ">
-              <img src="{{ asset('/image/index/5/3.jpg', 0) }}"> 
+              {{ web_macro.lasy_image('/image/index/5/3.jpg', 'Cat Pills') }}
             </div>
           </div>
         </div>
@@ -352,7 +352,7 @@
                   The most elegant and clean way to intake cat mints, no spilling around on the ground. 
                   Classy addiction for cat.
                 ">
-              <img src="{{ asset('/image/index/6/1.jpg', 0) }}">
+              {{ web_macro.lasy_image('/image/index/6/1.jpg', 'Addiction Cat Mint') }}
             </div>
             <div class="swiper-slide"
               data-title="Addiction Cat Mint" 
@@ -361,7 +361,7 @@
                 Packaging size : 10cm / 9cm / 6.5cm<br/>
                 Total weight : 0.1kg<br/>
                 ">
-              <img src="{{ asset('/image/index/6/2.jpg', 0) }}">
+              {{ web_macro.lasy_image('/image/index/6/2.jpg', 'Addiction Cat Mint') }}
             </div>
             <div class="swiper-slide"
               data-title="Addiction Cat Mint" 
@@ -370,7 +370,7 @@
                 Packaging size : 10cm / 9cm / 6.5cm<br/>
                 Total weight : 0.1kg<br/>
                 ">
-              <img src="{{ asset('/image/index/6/3.jpg', 0) }}"> 
+              {{ web_macro.lasy_image('/image/index/6/3.jpg', 'Addiction Cat Mint') }}
             </div>
           </div>
         </div>
@@ -416,7 +416,7 @@
           The industrial designers, graduated from St Martin's School of Art，University College London, MIT.etc，adopt classical geometry as designing language to build a simple while powerful brand image. 
           FURRYTAIL insists on the mutualistic lifestyle between human and pet, insists on providing 'Affordable design with good taste'. Our goal is that more and more pets owner can enjoy better design and higher quality in a lower price.
                 ">
-              <img src="{{ asset('/image/index/7/1.jpg', 0) }}">
+              {{ web_macro.lasy_image('/image/index/7/1.jpg', 'About Us') }}
             </div>
             <div class="swiper-slide"
               data-title="About Us" 
@@ -424,7 +424,7 @@
               data-sub-description="FURRYTAIL provide not only physical products for pets, but also entertaining contents for the pets' owners. Through different shooting projects and storytelling system, FURRYTAIL are building strong connection with the young generation.
 The latest shooting project called < Cats' Kingdom >, is building a wonderland all focus on cats. Cute little cats and imaginative setting with creative products placement, this project is making a big success among young pets owners. And this is just a beginning.
                 ">
-              <img src="{{ asset('/image/index/7/2.jpg', 0) }}">
+              {{ web_macro.lasy_image('/image/index/7/2.jpg', 'About Us') }}
             </div>
             <div class="swiper-slide"
               data-title="About Us" 
@@ -432,7 +432,7 @@ The latest shooting project called < Cats' Kingdom >, is building a wonderland a
               data-sub-description="FURRYTAIL provide not only physical products for pets, but also entertaining contents for the pets' owners. Through different shooting projects and storytelling system, FURRYTAIL are building strong connection with the young generation.
 The latest shooting project called < Cats' Kingdom >, is building a wonderland all focus on cats. Cute little cats and imaginative setting with creative products placement, this project is making a big success among young pets owners. And this is just a beginning.
                 ">
-              <img src="{{ asset('/image/index/7/3.jpg', 0) }}"> 
+              {{ web_macro.lasy_image('/image/index/7/3.jpg', 'About Us') }}
             </div>
           </div>
         </div>
@@ -463,7 +463,7 @@ The latest shooting project called < Cats' Kingdom >, is building a wonderland a
     </div>
     <div class="cd-md-9 bg-yellowish full-screen swiper-bg">
       <div class="main-top-distant cd-clearfix">
-        <img src="{{ asset('/image/index/8/1.jpg', 0) }}">
+        {{ web_macro.lasy_image('/image/index/8/1.jpg', 'Contact Us') }}
       </div>
     </div>
   </div>

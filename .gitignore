@@ -2,3 +2,6 @@
 /webpack-cache/
 /config/*
 /dev.lock
+/config
+/dev.lock
+yarn-error.log
